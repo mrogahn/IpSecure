@@ -51,7 +51,7 @@ function App() {
 
   return (
     <Container className="App" maxWidth="md">
-      <FilterInput filter={filter} setFilter={setFilter} />
+      <FilterInput setFilter={setFilter} />
       <CarListContainer cars={cars} />
     </Container>
   );

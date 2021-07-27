@@ -5,7 +5,7 @@ import CarModel from "./../CarModel/CarModel";
 export default function CarListContainer({ cars }) {
   return (
     <div className="car-list-container">
-      <Grid container spacing={3}>
+      <Grid container spacing={2}>
         {
           cars.filter(car => car.filtered).map((car, index) => {
             return (
