@@ -6,6 +6,7 @@ const data = require("./data.json");
 
 export const fetchCars = () => {
   return new Promise((resolve) => {
-    resolve(data);
+    // Return only 100 cars
+    resolve(data.slice(0, 100));
   })
 }
